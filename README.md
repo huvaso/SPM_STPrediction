@@ -3,6 +3,7 @@
 ## Created by
 **Author:** Hilda Ana Samame Jimenez <br />
 **Contact Details:** hsamame@pucp.edu.pe <br />
+**Advisor:** Hugo Alatrista-Salas / Miguel Nuñez del Prado <br />
 **Maintainer:** Yoshitomi Eduardo Maehara Aliaga <br />
 **Maintainer Details:** ye.maeharaa@up.edu.pe <br />
 **Institution:** Pontificia Universidad Catolica del Peru
