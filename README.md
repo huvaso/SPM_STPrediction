@@ -11,9 +11,9 @@
 <br />
 
 ## Description
-Algoritm for preddict next items using Temporal Restricted Sequential Pattern Mining. 
+Algoritm for predicting next items using Temporal Restricted Sequential Pattern Mining. 
 
-if you use a package please cite the following paper:
+Please, cite us using the following text.
 
 > Alatrista-Salas, A., Maehara, Y., Nunez-del-Prado, M., Samamé, H.(2020). Recommender Systems using Temporal Restricted Sequential Patterns. *Artificial Intelligence and it's Application in Healthcare* (Submited)
 <!---[[link]](https://link.springer.com/chapter/10.1007/978-3-030-57524-3_20)--->
@@ -32,7 +32,8 @@ Bibtex:
 
 ## Install
 ### Install COPpredict by Source Code
-if you clone repository or download the source you can install in your environment you will use:
+
+If you clone repository or download the source you can install in your environment you will use:
 ```
 python setup.py install
 ```
