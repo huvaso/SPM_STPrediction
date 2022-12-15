@@ -13,6 +13,8 @@
 ## Description
 Algoritm for predicting next items using Temporal Restricted Sequential Pattern Mining. 
 
+Link to pur paper: https://link.springer.com/article/10.1007/s12652-022-03808-x
+
 Please, cite us using the following text.
 
 > Alatrista-Salas, A., Maehara, Y., Nunez-del-Prado, M., Samamé, H.(2020). Recommender Systems using Temporal Restricted Sequential Patterns. *Artificial Intelligence and it's Application in Healthcare* (Submited)
