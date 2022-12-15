@@ -15,9 +15,9 @@ Algoritm for predicting next items using Temporal Restricted Sequential Pattern 
 
 Link to pur paper: https://link.springer.com/article/10.1007/s12652-022-03808-x
 
-Please, cite us using the following text.
+Please, cite us using the following text (APA format).
 
-> Alatrista-Salas, A., Maehara, Y., Nunez-del-Prado, M., Samamé, H.(2020). Recommender Systems using Temporal Restricted Sequential Patterns. *Artificial Intelligence and it's Application in Healthcare* (Submited)
+> Galarreta, A. P., Samamé, H., Maehara, Y., Nunez-del-Prado, M., & Alatrista-Salas, H. (2022). Recommender systems using temporal restricted sequential patterns. Journal of Ambient Intelligence and Humanized Computing, 1-14.
 <!---[[link]](https://link.springer.com/chapter/10.1007/978-3-030-57524-3_20)--->
 
 Bibtex:
