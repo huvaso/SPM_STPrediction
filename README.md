@@ -33,35 +33,40 @@ Bibtex:
 ```
 
 ## Install
+
 ### Install COPpredict by Source Code
 
-If you clone repository or download the source you can install in your environment you will use:
+Please, download the source and install the COPpredict in your environment using the following sentence:
 ```
 python setup.py install
 ```
-or if you would install in your development environment you will use:
+You can install COPpredict in your development environment by executing:
 ```
 python setup.py develop
 ```
 ### Install COPpredict by PIP
-you can install last release using:
+
+You can install last release using pip:
 ```
 pip install git+https://github.com/hsamame/tesishildavf.git
 ```
-or a specific version using:
+You can also install a specific version using pip:
 ```
 pip install git+https://github.com/hsamame/tesishildavf.git@v1.0
 ```
 
-``coppredict`` depends on the following packages which will be installed by pip during the installation process
+``COPpredict`` depends on the following packages which will be installed by pip during the installation process
 - ``pandas``
 - ``numpy``
 - ``psutil``
 - ``IPython``
 
 ## Usage
-## COPredict usage example
-1. Read the CSV of WinCopper or Copper patterns dataset (an example of the input file is shown in the example folder). 
+
+## COPpredict usage example
+
+1. Read the CSV of WinCopper or Copper patterns dataset (an example of the input file is shown in the example folder):
+
 ```python
 from coppredict import preprocessing as pr
 from coppredict.patricia import Patricia
@@ -85,7 +90,8 @@ df_patterns = pr.load_patterns_file(path, filename)
 [['C1', ['C1', 'C12'], 'C1', ['C1', 'C3']], 274191, 0.5001085245584692]
 ...
 ```
-2. Read the CSV of weights dataset (an example of the input file is shown in the example folder).
+2. Read the CSV of weights dataset (an example of the input file is shown in the example folder):
+
 ```python
 path = 'weights'
 filename = 'banks_weights2.csv'
@@ -107,14 +113,16 @@ C11,156.57556260988437,48.27944842885606,444.496705792871,137.058781244502
 C12,107.051075269127,33.00877087186558,628.878671563135,193.912222876487
 ```
 
-3. Select variables to use in prediction and calculate weights for each patterns
+3. Select variables to use in prediction and calculate weights for each patterns:
+
 ```python
 variable = 'coicop'
 measure = 'ratio_sol'
 df_patterns_weight = pr.calculate_weights_pattern(df_patterns, weights, variable, measure)
 ```
 
-4. Perform data division in train and validation dataset
+4. Perform data division in train and validation dataset:
+
 ```python
 # for this example have proportion 90 (train) /10 (validate)
 train, validate = pdt.split_train_validation(df_patterns_weight, 0.9)
