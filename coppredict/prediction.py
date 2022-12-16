@@ -19,14 +19,23 @@ def prepare_validation_data(df):
     df['aux_pattern'] = ''
     df['convert_pattern'] = ''
     df = df.astype(object)
+    
+    #print("---------")
+    #print(df.shape)
 
     for i in range(len(df)):
         element = df.loc[i, "patterns"]
         last_item = element[-1:]
         without_last_item = element[:-1]
-        df.iloc[i, 5] = pr.convert_pattern_to_string(last_item)
-        df.iloc[i, 6] = pr.convert_pattern_to_string(without_last_item)
-        df.iloc[i, 7] = pr.convert_pattern_to_string(element)
+        
+        #df.iloc[i, 5] = pr.convert_pattern_to_string(last_item)
+        #df.iloc[i, 6] = pr.convert_pattern_to_string(without_last_item)
+        #df.iloc[i, 7] = pr.convert_pattern_to_string(element)
+        
+        df.iloc[:, 5].loc[i] = pr.convert_pattern_to_string(last_item)
+        df.iloc[:, 6].loc[i] = pr.convert_pattern_to_string(without_last_item)
+        df.iloc[:, 7].loc[i] = pr.convert_pattern_to_string(element)
+        
 
     return df
 
