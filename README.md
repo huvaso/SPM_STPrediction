@@ -67,12 +67,16 @@ pip install git+https://github.com/hsamame/tesishildavf.git@v1.0
 1. Read the CSV of WinCopper or Copper patterns dataset (an example of the input file is shown in the example folder):
 
 ```python
-from coppredict import preprocessing as pr
+from coppredict import preprocessing  as pr
+import numpy as np
 from coppredict.patricia import Patricia
 from coppredict import evaluation as ev
 from coppredict import prediction as pdt
-path = 'patterns'
+from coppredict import util
+
+path = './patterns'
 filename = 'Results_ps_f_spmf_at_274132_bank_full_sizek_rt_50_.txt'
+
 df_patterns = pr.load_patterns_file(path, filename)
 ```
 ```
