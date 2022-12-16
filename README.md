@@ -96,7 +96,7 @@ df_patterns = pr.load_patterns_file(path, filename)
 2. Read the CSV of weights dataset (an example of the input file is shown in the example folder):
 
 ```python
-path = 'weights'
+path = './weights'
 filename = 'banks_weights2.csv'
 weights = pr.load_weights(path, filename)
 ```
