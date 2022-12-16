@@ -21,13 +21,13 @@ Please, cite us using the following text (APA format).
 
 Bibtex:
 ```
-@inbook{alatrista2020recomender,
-  title={Recommender Systems using Temporal Restricted Sequential Patterns},
-  author={Alatrista-Salas, A. and Maehara, Y. and Nunez-del-Prado, M. and Samamé, H},
-  booktitle={Artificial Intelligence and it's Application in Healthcare},
-  pages={},
-  year={2020},
-  organization={CRC PRESS}
+@article{galarreta2022recommender,
+  title={Recommender systems using temporal restricted sequential patterns},
+  author={Galarreta, Ana-Paula and Samam{\'e}, Hilda and Maehara, Yoshitomi and Nunez-del-Prado, Miguel and Alatrista-Salas, Hugo},
+  journal={Journal of Ambient Intelligence and Humanized Computing},
+  pages={1--14},
+  year={2022},
+  publisher={Springer}
 }
 ```
 
