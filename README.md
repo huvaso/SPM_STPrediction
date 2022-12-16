@@ -130,7 +130,6 @@ df_patterns_weight = pr.calculate_weights_pattern(df_patterns, weights, variable
 # for this example have proportion 90 (train) /10 (validate)
 train, validate = pdt.split_train_validation(df_patterns_weight, 0.9)
 train = pr.order_by_sublen(train)
-
 ```
 
 ## References
