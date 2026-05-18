@@ -1,6 +1,6 @@
 # 🌐 COPpredict
 
-## Created by
+## About
 **Author:** Hilda Ana Samame Jimenez <br />
 **Contact Details:** hsamame@pucp.edu.pe <br />
 **Advisors:** Hugo Alatrista-Salas / Miguel Nuñez del Prado <br />
